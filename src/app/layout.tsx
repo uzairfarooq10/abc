@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 // import '../globals.css';
-import { ThemeProvider } from "@mui/material/styles";
-import theme from "@/theme";
-import Header from "@/components/header";
-import { Box } from "@mui/material";
-import ResponsiveDrawer from "@/components/sidebar";
+// import { ThemeProvider } from "@mui/material/styles";
+// import theme from "@/theme";
+// import Header from "@/components/header";
+// import { Box } from "@mui/material";
+// import ResponsiveDrawer from "@/components/sidebar";
 
 export const metadata: Metadata = {
   title: "Products | Dashboard",

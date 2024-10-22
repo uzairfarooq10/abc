@@ -21,7 +21,7 @@ const drawerWidth = 240;
 
 export default function ResponsiveDrawer() {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [isClosing, setIsClosing] = useState(false);
+  const [, setIsClosing] = useState(false);
 
   const handleDrawerClose = () => {
     setIsClosing(true);

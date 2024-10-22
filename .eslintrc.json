@@ -1,3 +1,17 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    "no-unused-vars": [
+      "warn",
+      {
+        // Warns about unused variables
+        "vars": "all", // Check all variables
+        "varsIgnorePattern": "^_", // Ignore variables that start with '_'
+        "args": "after-used", // Only check arguments after they are used
+        "ignoreRestSiblings": true // Ignore rest siblings in object destructuring
+      }
+    ],
+    "@typescript-eslint/no-unused-vars": ["warn"], // TypeScript specific rule for unused variables
+    "no-unused-imports": "warn" // Warns about unused imports
+  }
 }
